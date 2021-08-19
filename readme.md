@@ -24,22 +24,50 @@ This system will give you 4 modes for you energy system
 
 ### Example for Mounting the display and buttons
 
+![Mounting](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/DisplayButtonsMounting.jpg?raw=true)
+
 ### Example for Mounting the Script Racks
+
+![Mounting](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/RackMounting.jpg?raw=true)
+
+### Fuel Chamber and Generators
+
+Do not change anything on genetors, you can keep the rate to 100% it will not affect how much fuel you are using.
+
+If the generator is set at 100% and the fuel chamber is at 10%, the generator will auto adjust to use what the chamber are giving.
+
+If a generator is set at 10% but the chamber is set at 100%, this will still fully use you fuel rod, the more you are producing is just lost.
+
+So alway let your generators to 100% and only adjust your chamber.
+
+#### Generator (default fields)
+
+![Generators fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/Generator.jpg?raw=true)
+
+#### Fuel Chamber (default fields)
+
+![Chamber fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/FuelChamber.jpg?raw=true)
 
 ### The buttons
 
 #### Top Button Fields
 
+![Button fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/ButtonTop.jpg?raw=true)
 
 #### Bottom Button fields
 
+![Button fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/ButtonBottom.jpg?raw=true)
 
 ### Text Panel
+
+![Text Panel fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/TextPanel.jpg?raw=true)
 
 
 ### Memory chip
 
 On the memory chip, just replace the 1st field with the name `GenModeNb` and set it to `4` (this is the value for auto power)
+
+![Memory Chip fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/MemoryChip.jpg?raw=true)
 
 ### Scripts
 
