@@ -19,11 +19,11 @@ This system will give you 4 modes for you energy system
 
 ## Elements required
 
-- 6 `Basic YOLOL chips` (you can only use 3 but the performance will be slower)
+- 2 `Basic YOLOL chips`
 - 1 `Text panel 24x24`
 - 2 `Simple buttons 12x12`
-- 1 `YOLOL memery chip`
-- 7 `YOLOL chip sockets` or 3 `YOLOL Racks 48x48` with 1 `YOLOL Rack chip slot(2 slots)` and 2 `YOLOL Rack chip slot (3 Slots)`
+- 1 `YOLOL memory chip`
+- 3 `YOLOL chip sockets`
 
 ## Example for Mounting the display and buttons
 
@@ -65,7 +65,6 @@ So alway let your generators to 100% and only adjust your chamber.
 
 ![Text Panel fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/TextPanel.jpg?raw=true)
 
-
 ## Memory chip
 
 On the memory chip, just replace the 1st field with the name `GenModeNb` and set it to `4` (this is the value for auto power)
@@ -74,17 +73,14 @@ On the memory chip, just replace the 1st field with the name `GenModeNb` and set
 
 ## Scripts
 
-If you are using 6 you can copy each of the folowing files on a single basic chip and plug them:
+Copy and paste these both scripts (line by line) on the two basic chips
 
 - `main.yolol` will manage the fuel chmaber rate depending on th emode you selected
-- `screen.yolol` will manage the display on the text panel
-- `button1.yolol` will manage the press on the bottom button
-- `button2.yolol` will manage the press on the top button
-- `higher_limit.yolol` will reset the value of `GenModeNB` to shutdown if it goes higher than the overide
-- `higher_limit.yolol` will reset the value of `GenModeNB` to override if it goes lower than the shutdown
+- `selector.yolol` will manage the display on the text panel
 
-if you are only using 3 chips, you only need these 3 scripts : `main.yolol`, `screen.yolol`, `buttons_group.yolol`.
-The third one will regroupe the 4 that are managing the button states and the limits.
+## Credits
+
+Special Thanx to Daveman42 for the help on the selector.
 
 ## Support or donation
 

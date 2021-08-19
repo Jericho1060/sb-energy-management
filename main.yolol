@@ -1,4 +1,4 @@
-goto (:GenModeNb-1)
+goto :GM
 :FuelChamberUnitRateLimit=0 goto1
 :FuelChamberUnitRateLimit=100-(:StoredBatteryPower/100) goto1
 :FuelChamberUnitRateLimit=50 goto1
