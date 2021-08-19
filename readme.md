@@ -1,11 +1,14 @@
 # SB ENERGY MANAGEMENT
-A full automated energy management script for Starbase
+
+A full automated energy management script for Starbase.
+
+Showcase Video: https://youtu.be/u-j5BeoDx4c
 
 ## Guilded Server (better than Discord)
 
 You can join me on Guilded for help or suggestions or requests by following that link : https://guilded.jericho1060.com
 
-### Modes
+## Modes
 
 This system will give you 4 modes for you energy system
 
@@ -14,7 +17,7 @@ This system will give you 4 modes for you energy system
 - Half: Force the power to 50%
 - Override: Force the power to 100%
 
-### Elements required
+## Elements required
 
 - 6 `Basic YOLOL chips` (you can only use 3 but the performance will be slower)
 - 1 `Text panel 24x24`
@@ -22,15 +25,15 @@ This system will give you 4 modes for you energy system
 - 1 `YOLOL memery chip`
 - 7 `YOLOL chip sockets` or 3 `YOLOL Racks 48x48` with 1 `YOLOL Rack chip slot(2 slots)` and 2 `YOLOL Rack chip slot (3 Slots)`
 
-### Example for Mounting the display and buttons
+## Example for Mounting the display and buttons
 
 ![Mounting](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/DisplayButtonsMounting.jpg?raw=true)
 
-### Example for Mounting the Script Racks
+## Example for Mounting the Script Racks
 
 ![Mounting](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/RackMounting.jpg?raw=true)
 
-### Fuel Chamber and Generators
+## Fuel Chamber and Generators
 
 Do not change anything on genetors, you can keep the rate to 100% it will not affect how much fuel you are using.
 
@@ -40,36 +43,36 @@ If a generator is set at 10% but the chamber is set at 100%, this will still ful
 
 So alway let your generators to 100% and only adjust your chamber.
 
-#### Generator (default fields)
+### Generator (default fields)
 
 ![Generators fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/Generator.jpg?raw=true)
 
-#### Fuel Chamber (default fields)
+### Fuel Chamber (default fields)
 
 ![Chamber fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/FuelChamber.jpg?raw=true)
 
-### The buttons
+## The buttons
 
-#### Top Button Fields
+### Top Button Fields
 
 ![Button fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/ButtonTop.jpg?raw=true)
 
-#### Bottom Button fields
+### Bottom Button fields
 
 ![Button fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/ButtonBottom.jpg?raw=true)
 
-### Text Panel
+## Text Panel
 
 ![Text Panel fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/TextPanel.jpg?raw=true)
 
 
-### Memory chip
+## Memory chip
 
 On the memory chip, just replace the 1st field with the name `GenModeNb` and set it to `4` (this is the value for auto power)
 
 ![Memory Chip fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/MemoryChip.jpg?raw=true)
 
-### Scripts
+## Scripts
 
 If you are using 6 you can copy each of the folowing files on a single basic chip and plug them:
 
@@ -82,3 +85,7 @@ If you are using 6 you can copy each of the folowing files on a single basic chi
 
 if you are only using 3 chips, you only need these 3 scripts : `main.yolol`, `screen.yolol`, `buttons_group.yolol`.
 The third one will regroupe the 4 that are managing the button states and the limits.
+
+## Support or donation
+
+if you like it, [<img src="https://github.com/Jericho1060/DU-Industry-HUD/blob/main/ressources/images/ko-fi.png?raw=true" width="150">](https://ko-fi.com/jericho1060)
