@@ -67,7 +67,7 @@ So alway let your generators to 100% and only adjust your chamber.
 
 ## Memory chip
 
-On the memory chip, just replace the 1st field with the name `GenModeNb` and set it to `4` (this is the value for auto power)
+On the memory chip, just replace the 1st field with the name `GM` and set it to `3` (this is the value for auto power)
 
 ![Memory Chip fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/MemoryChip.jpg?raw=true)
 
