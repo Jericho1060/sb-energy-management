@@ -1,0 +1,20 @@
+if :GenModeNb>6 then:GenModeNb=3 end goto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// SHIP ENERGY MANAGEMENT By Jericho (Discord: jericho#1060)
+// https://github.com/Jericho1060/sb-energy-management
