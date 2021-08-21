@@ -1,5 +1,5 @@
 n="\n" l=n+" 2> Shutdown"+n+" 3> Auto"+n+" 4> Half"+n+" 5> Override"
-v=:GMP-:GMM if v then :GM+=v :GM+=(:GM<2)*4-(:GM>5)*4 end
+v=:GMP-:GMM if v then :GM+=v :GM+=(:GM<2)*4-(:GM>5)*4 else goto2 end
 ax=" "+:GM :GMP=0 :GMM=0 :GenMode=l-ax-"2>"-"3>"-"4>"-"5>" goto2
 
 
