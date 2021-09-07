@@ -22,15 +22,11 @@ This system will give you 4 modes for you energy system
 - 1 `Basic YOLOL chips`
 - 1 `Text panel 24x24`
 - 2 `Simple buttons 12x12`
-- 3 `YOLOL chip sockets`
+- 1 `YOLOL chip sockets`
 
 ## Example for Mounting the display and buttons
 
 ![Mounting](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/DisplayButtonsMounting.jpg?raw=true)
-
-## Example for Mounting the Script Racks
-
-![Mounting](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/RackMounting.jpg?raw=true)
 
 ## Fuel Chamber and Generators
 
