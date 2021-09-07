@@ -1,0 +1,8 @@
+a=4 b="\n 1> Shutdown\n 2> Auto\n 3> Half\n 4> Override" c=2 d=" "+c
+:GenMode=b-d-"1>"-"2>"-"3>"-"4>"
+e=:GMP-:GMM ife==0thengotoc+4end c+=e c+=(c<1)*a-(c>a)*a d=" "+c
+:GMP=0 :GMM=0 :GenMode=b-d-"1>"-"2>"-"3>"-"4>" gotoc+4
+:FuelChamberUnitRateLimit=0 goto3
+:FuelChamberUnitRateLimit=100-:StoredBatteryPower/100 goto3
+:FuelChamberUnitRateLimit=50 goto3
+:FuelChamberUnitRateLimit=100 goto3

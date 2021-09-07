@@ -19,10 +19,9 @@ This system will give you 4 modes for you energy system
 
 ## Elements required
 
-- 2 `Basic YOLOL chips`
+- 1 `Basic YOLOL chips`
 - 1 `Text panel 24x24`
 - 2 `Simple buttons 12x12`
-- 1 `YOLOL memory chip`
 - 3 `YOLOL chip sockets`
 
 ## Example for Mounting the display and buttons
@@ -65,18 +64,9 @@ So alway let your generators to 100% and only adjust your chamber.
 
 ![Text Panel fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/TextPanel.jpg?raw=true)
 
-## Memory chip
+## Script
 
-On the memory chip, just replace the 1st field with the name `GM` and set it to `3` (this is the value for auto power)
-
-![Memory Chip fields](https://github.com/Jericho1060/sb-energy-management/blob/main/pictures/MemoryChip.jpg?raw=true)
-
-## Scripts
-
-Copy and paste these both scripts (line by line) on the two basic chips
-
-- `main.yolol` will manage the fuel chmaber rate depending on th emode you selected
-- `selector.yolol` will manage the display on the text panel
+Copy and paste the content of the file `generator.yolol` on the basic chip.
 
 ## Credits
 
