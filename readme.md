@@ -6,7 +6,7 @@ Showcase Video: https://youtu.be/u-j5BeoDx4c
 
 ## Guilded Server (better than Discord)
 
-You can join me on Guilded for help or suggestions or requests by following that link : https://guilded.jericho1060.com
+You can join me on Guilded for help or suggestions or requests by following that link : https://guilded.jericho.dev
 
 ## Modes
 
